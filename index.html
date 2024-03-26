@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div class="head">
+        <img src="/images/tofi-logo_navbar.png" alt="" />
+        <h1>Temples of India</h1>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#search">Search</a>
+        <a href="">Nearby Temple</a>
+        <a href=""><i class="fa-solid fa-location-dot"></i> Add Temples</a>
+        <a href="">About us</a>
+        <a href="">login</a>
+      </div>
+      <div class="search">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+    </nav>
+
+    <!--sidebar-->
+
+    <div id="mySidebar" class="sidebar">
+      <div class="username">
+        <img src="/images/Golden-Temple.jpg" />
+        <div class="user">
+          <h2>Username</h2>
+          <h4>view Profile</h4>
+        </div>
+      </div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+      <br />
+      <hr />
+      <a href="#"><i class="fa-solid fa-key"></i> Login</a>
+      <br />
+      <hr />
+      <a href="#"><i class="fa-solid fa-hands-praying"></i> Nearby Temples</a>
+      <br />
+      <hr />
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Add Temples</a>
+      <br />
+      <hr />
+      <a href="#"><i class="fa-solid fa-exclamation"></i> About Us</a>
+      <br />
+      <hr />
+      <a href="#"><i class="fa-solid fa-star"></i> Download App</a>
+    </div>
+
+    <!--image sliding-->
+
+    <div class="slider-container">
+      <div class="slider">
+        <img src="images/img3.jpg" class="slides active" />
+        <img src="images/img2.png" class="slides" />
+        <img src="images/img1.png" class="slides" />
+        <div id="prev"><i class="fa-solid fa-angles-left"></i></div>
+
+        <div id="next"><i class="fa-solid fa-angles-right"></i></div>
+      </div>
+
+      <div class="dots">
+        <div class="dot activeDot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+
+    <!--body section-->
+    <div class="body">
+      <div class="start">
+        <div class="sri">
+          <h1>Sri Ranganathar Temple</h1>
+          <h3>Vishnu</h3>
+        </div>
+        <div class="devot">
+          <div class="visit">
+            <a href=""><i class="fa-solid fa-hands-praying"></i></a>
+            <h4>Visited</h4>
+          </div>
+          <div class="visit">
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <h4>Favorite</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="mid">
+        <div class="data">
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a><i class="fa-solid fa-chevron-down"></i></a>
+                <h2>Special Features</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+
+            <span class="desc">
+              <h3>Foundation Year</h3>
+              <br />
+              <h4>500-1000 years old</h4>
+              <br /><br />
+
+              <h3>Sthala Tree</h3>
+              <br /><br />
+              <h3>Theerthan</h3>
+              <h4>
+                Palsunai, Padma theertham, Sengothai Sunai, Kannimar Sunai,
+                Pasumani Sunai
+              </h4>
+              <br /><br />
+              <h3>Ratham</h3>
+              <br />
+              <h3>Architecure</h3>
+              <br />
+              <h4>Dravidian Architecture</h4>
+              <br /><br />
+              <h3>other Speciality</h3>
+              <br />
+              <h4>
+                All merciful Lord Ranganatha appears in a standing form facing
+                east pleasing the mind of His devotees.
+              </h4>
+            </span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a> <i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Sathala Puran</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc">
+              <h5>
+                Maharshi Kalava was in penance for a quite number of years to
+                have the darshan of Lord Narayana. One Durmadhan, son of a
+                Gandarva Viswasu by name was bathing in the tank with his wives.
+                Maharshi Vasishta was returning from Mount Kailash after a
+                darshan of Lord Shiva. Seeing the sage, Durmadha’s wives stopped
+                bathing and came out of the tank in respect to the sage. But
+                Durmadha continued bathing nude. Angry Vasishta cursed Dhurmada
+                to be born a demon. The wives fell at the feet of Sage Vasishta
+                and begged for relief. Responding to their prayer, sage said
+                that their husband would be back to them in a short time.
+              </h5>
+            </span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a><i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Architecure</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc">
+              <h5>
+                All merciful Lord Ranganatha appears in a standing form facing
+                east pleasing the mind of His devotees. Thumbikkai Azhwar and
+                Mother grace the devotees from their respective shrines.
+                Adequate space is created around the temple to facilitate car
+                festival and movement of devotees during festival times. Many
+                visit the temple frequently as the environment and the climate
+                are helpful to keep them healthy and free from any disease.
+                Irulars, a tribal community are living near the temple. The car
+                of the temple is aesthetically made by skilled craftsmen.
+              </h5>
+              <hr />
+            </span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a> <i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Alankar of eity</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc">
+              <hr />
+            </span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit prayer">
+                <a><i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Prayers and Benefits</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc">
+              <h3>Special Vratas and Prayers</h3>
+              <h4>Those facing the impact of some curses pray for relief.</h4>
+              <br /><br />
+              <h3>Offerings to Deity</h3>
+              <h4>
+                Devotees perform Tirumanjanam to Lord and Mother with sweet
+                pudding-sarkarai pongal nivedhana.
+              </h4>
+
+              <hr />
+            </span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a> <i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Festivals</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc">
+              <h5>
+                Car festival is celebrated in the temple on Chitra Poornima day
+                in April-May.
+              </h5>
+              <br />
+              <hr />
+            </span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit prayer">
+                <a> <i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Sodasha Upcharas</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc"><hr /></span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a> <i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Prasadhas</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc"><hr /></span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a> <i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Social Activites</h2>
+              </div>
+
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc">
+              <h3>Annadhan</h3>
+              <h3>Marrige</h3>
+              <h3>Ear Boring</h3>
+              <h3>Head Shave</h3>
+              <h3>Danaas</h3>
+              <h3>Education Facilities</h3>
+            </span>
+          </div>
+
+          <div>
+            <div class="da">
+              <div class="edit">
+                <a> <i class="fa-solid fa-chevron-down"></i></a>
+
+                <h2>Arjits Seva</h2>
+              </div>
+              <div><i class="fa-solid fa-pen"></i></div>
+            </div>
+            <span class="desc">
+              <br />
+              <hr />
+            </span>
+          </div>
+
+          <div class="da">
+            <h2>Tags</h2>
+            <i class="fa-solid fa-pen"></i>
+          </div>
+        </div>
+
+        <div class="map">
+          <h2>Location</h2>
+          <h3 class="views">Views on Maps</h3>
+          <h4>
+            Unnamed Road, Anbu Nagar, Podanur, Coimbatore, Tamil Nadu 641023
+          </h4>
+          <div class="mp">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12235.758289272473!2d76.99222796134038!3d10.952428424158583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85a0a0e741fd7%3A0xf8a0a599f64aa4bb!2sAnbu%20Nagar%2C%20Podanur%2C%20Tamil%20Nadu%20641023!5e0!3m2!1sen!2sin!4v1711398519174!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <h2>Open Timings</h2>
+          <br />
+          <h4>Alldays: 07:00 am - 09:00 am</h4>
+          <br /><br /><br />
+
+          <h2>Pooja Timings</h2>
+          <br /><br /><br />
+
+          <h2>Other Deities</h2>
+          <br />
+
+          <h2>Amenities</h2>
+          <br />
+          <div class="list">
+            <div class="right">
+              <a href=""><i class="fa-solid fa-check"></i></a>
+              <h3>Drinking Water</h3>
+            </div>
+            <div class="right">
+              <a href=""><i class="fa-solid fa-check"></i></a>
+              <h3>Pooja item Shops</h3>
+            </div>
+            <div class="right">
+              <a href=""><i class="fa-solid fa-check"></i></a>
+              <h3>Restaurants Nearby</h3>
+            </div>
+            <div class="right">
+              <a href=""><i class="fa-solid fa-check"></i></a>
+              <h3>Restroom</h3>
+            </div>
+          </div>
+          <br /><br />
+
+          <div class="reach">
+            <div class="re">
+              <h2>How to reach?</h2>
+              <i class="fa-solid fa-pen"></i>
+            </div>
+            <div class="re">
+              <h3>Nearest Bus Station</h3>
+              <i class="fa-solid fa-bus-simple"></i>
+            </div>
+            <h4>Gandhipuram</h4>
+            <br /><br />
+            <div class="re">
+              <h3>Nearest Railway Station</h3>
+              <i class="fa-solid fa-train"></i>
+            </div>
+            <h3>Coimbatore</h3>
+            <br /><br />
+
+            <div class="re">
+              <h3>Nearest Railway Airport</h3>
+              <i class="fa-solid fa-plane"></i>
+            </div>
+            <h3>Coimbatore</h3>
+
+            <br /><br />
+
+            <div class="re">
+              <h2>Contact Details</h2>
+              <i class="fa-solid fa-pen"></i>
+            </div>
+            <h3>Name</h3>
+            <br />
+            <h3>Phone</h3>
+            <h3>+91-94433 48564</h3>
+            <br />
+            <h3>Website</h3>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h2>Contributors</h2>
+      <hr />
+      <h2>Comments</h2>
+    </div>
+    <!--footer-->
+
+    <footer>
+      <div class="footer">
+        <div class="a1">
+          <div class="img">
+            <h2>Temples of India</h2>
+            <img src="/images//tofi-logo_navbar.png" alt="" />
+          </div>
+          <h3>World's Largest Hindu Temples Portal.</h3>
+        </div>
+
+        <div class="quick">
+          <h3>Quick Links</h3>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Nearby Temples</a>
+          <a href="#">Download App</a>
+          <a href="#">Donate to Us</a>
+        </div>
+
+        <div class="sear">
+          <a href="#">Search Temples</a>
+          <a href="#">Watch Video</a>
+          <a href="#">Disclaimer</a>
+          <a href="#">Our Blog</a>
+          <a href="#">Donate for Dharma</a>
+        </div>
+
+        <div class="soci">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="copy">
+        &copy;Temples of India 2020-2023 | Email: contact@templesofindia.org
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
